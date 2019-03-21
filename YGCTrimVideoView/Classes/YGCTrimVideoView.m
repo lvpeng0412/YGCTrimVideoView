@@ -13,8 +13,8 @@
 
 //static NSInteger const kMaxThumbCount = 30;
 static CGFloat const kDefaultSidebarWidth = 12;
-static CGFloat const kDefaultMaxSeconds = 10;
-static CGFloat const kDefaultMinSeconds = 2;
+static CGFloat const kDefaultMaxSeconds = 30;
+static CGFloat const kDefaultMinSeconds = 5;
 static NSString * const kCellIdentifier = @"YGCThumbCollectionViewCell";
 
 @interface YGCTrimVideoView()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, YGCTrimVideoControlViewDelegate>
