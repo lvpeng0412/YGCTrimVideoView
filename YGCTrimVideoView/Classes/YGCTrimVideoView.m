@@ -93,7 +93,7 @@ static NSString * const kCellIdentifier = @"YGCThumbCollectionViewCell";
 }
 
 - (CGFloat)cellWidth {
-    return self.controlView.ygc_width/10;
+    return self.controlView.ygc_width/_maxSeconds;
 }
 
 - (CGFloat)acturalMaxSecons {
